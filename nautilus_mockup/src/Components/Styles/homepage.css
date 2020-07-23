@@ -1,0 +1,15 @@
+.hpcontainer{
+    border: red solid;
+    /* background-image: url(/Users/student_ga111/Desktop/Cassini/mod2/wk3/homework/nautilus/nautilus_mockup/nautilus_mockup/assets/matches.png);
+    /* background-size: 100%; */
+    height: 100vh;
+    width: 100vw; 
+}
+
+.bgimage{
+    border: black solid;
+    /* background-image: url(/Users/student_ga111/Desktop/Cassini/mod2/wk3/homework/nautilus/nautilus_mockup/nautilus_mockup/assets/matches.png); */
+    /* background-size: 100%; */
+    height: 80vh;
+    width: 80vw;
+} 

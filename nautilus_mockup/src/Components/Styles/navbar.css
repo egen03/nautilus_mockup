@@ -1,0 +1,16 @@
+.navbar{
+    border: blue solid;
+    display: flex;
+}
+
+.logo{
+    border: blue solid;
+}
+
+.links{
+    display: inline;
+}
+
+.subscribe{
+    border: blue solid;
+}
