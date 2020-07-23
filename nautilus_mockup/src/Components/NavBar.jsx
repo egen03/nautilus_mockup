@@ -5,24 +5,24 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="logo">
-                <p>logo</p>
+                <p className="logoname">NAUTILUS</p>
             </div>
             
-            <div className="links">
-            <ul>
-                <li>ISSUES</li>
-                <li>TOPICS</li>
-                <li>BLOG</li>
-                <li>NEWSLETTER</li>
-                <li>FACEBOOK</li>
-                <li>TWITTER</li>
-                <li>LOGIN</li>
+            <div classname="linkscontainer">
+            <ul className="links">
+                <li className="link">ISSUE</li>
+                <li className="link">TOPICS</li>
+                <li className="link">BLOG</li>
+                <li className="link">NEWSLETTER</li>
+                <li className="link">FACEBOOK</li>
+                <li className="link">TWITTER</li>
+                <li className="link">LOGIN</li>
+                <li className="subscribe"><button className="subscribebtn">SUBSCRIBE</button></li>
             </ul>
+
             </div>
 
-            <div className="subscribe">
-                <p>SUBSCRIBE</p>
-            </div>
+            
 
         </div>
     );

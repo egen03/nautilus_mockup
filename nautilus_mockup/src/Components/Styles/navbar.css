@@ -1,16 +1,54 @@
 .navbar{
     border: blue solid;
     display: flex;
+    height: 10vh;
+    /* padding-top: 20px; */
 }
 
 .logo{
     border: blue solid;
+    width: 20vw;
+    background-image: url(/Users/student_ga111/Desktop/Cassini/mod2/wk3/homework/nautilus/nautilus_mockup/nautilus_mockup/assets/global/nautilus-logo-sprite@2x.png);
+    
+}
+
+.logoname{
+    font-family: serif;
+    font-weight: 400;
 }
 
 .links{
-    display: inline;
+    border: teal solid;
+    display: flex;
+    font-family: "freight-sans-pro", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    list-style: none;
+    justify-content: center;
+    width: 70vw;
+    padding: 0;
+    
+}
+
+.link{
+    /* padding-right: 0; */
+    text-align: center;
+    margin-right: 2vw;
+}
+
+.links:hover{
+    color: #ffb618;
 }
 
 .subscribe{
     border: blue solid;
+    width: 7vw;
+}
+
+.subscribebtn {
+    background-color: black;
+    color: white;
+    font-family: "freight-sans-pro";
+    padding: 10px;
+
 }
