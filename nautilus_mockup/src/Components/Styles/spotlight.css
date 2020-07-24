@@ -1,0 +1,59 @@
+.Spotlight{
+    border: purple solid;
+    /* height: 53vh; */
+    width: 100vw;
+    background-color: #695f60;
+    background-image: url(/assets/ideas.jpg);
+    background-size: 100%;
+  
+    /* display: flex; */
+    text-align: center;
+   
+    
+    
+}
+
+.sltitle{
+    border: plum solid;
+    height: 15vh;
+    font-family: "Freight-san-pro";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 900;
+    color:#ffffff;
+    text-transform: uppercase;
+    
+    
+       
+}
+
+.slsubtitle{
+    border: rgb(170, 22, 170) solid;
+    /* vertical-align: baseline; */
+    font-family: "freight-sans-pro";
+    font-size: 64px;
+    line-height: 48px;
+    color: #ffb618;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    
+}
+
+.slbtn{
+    background-color: white;
+    color: black;
+    width: 15vw;
+    border: 2px black solid;
+    padding: 18px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.slbtn:hover {
+    color: #ffb618;
+    border: #ffb618 solid;
+}

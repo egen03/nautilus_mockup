@@ -1,7 +1,7 @@
 .navbar{
     border: blue solid;
     display: flex;
-    height: 10vh;
+    height: 12vh;
     /* padding-top: 20px; */
 }
 
