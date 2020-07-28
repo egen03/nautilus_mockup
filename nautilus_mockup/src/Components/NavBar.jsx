@@ -10,15 +10,28 @@ const Navbar = () => {
             
             <div classname="linkscontainer">
             <ul className="links">
-                <li className="link">ISSUE</li>
-                <li className="link">TOPICS</li>
-                <li className="link">BLOG</li>
-                <li className="link">NEWSLETTER</li>
-                <li className="link">FACEBOOK</li>
-                <li className="link">TWITTER</li>
-                <li className="link">LOGIN</li>
-                <li className="subscribe"><button className="subscribebtn">SUBSCRIBE</button></li>
+                <p className="link"><li>ISSUE</li></p>
+                <p><li className="link">TOPICS</li></p>
+                <p><li className="link">BLOG</li></p>
+                <p><li className="link">NEWSLETTER</li></p>
+                <p><li className="link">FACEBOOK</li></p>
+                <p><li className="link">TWITTER</li></p>
+                <p><li className="link">LOGIN</li></p>
+                <p><li className="subscribe"><button className="subscribebtn">SUBSCRIBE</button></li></p>
             </ul>
+
+{/* <p><a href="http://nautil.us/issues">ISSUES</a></p>
+                        <p className="link"><a href="http://nautil.us/#">TOPICS</a></p>
+                        <p className="link"><a href="http://nautil.us/blog">BLOGS</a></p>
+                        <p><div><button>NEWSLETTERS</button></div></p>
+                        <p>
+                            <a href="http://www.facebook.com/NautilusMag">
+                                Facebook
+                            </a>
+                        </p>
+                        <p><a  href="http://twitter.com/NautilusMag">Twitter</a></p>
+                        <p><a href="http://nautil.us/primeuser">LOGIN</a></p>
+                        <button className="subBtn">SUBSCRIBE</button>  */}
 
             </div>
 
